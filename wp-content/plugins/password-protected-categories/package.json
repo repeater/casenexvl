@@ -1,0 +1,37 @@
+{
+  "name": "password-protected-categories",
+  "version": "1.2.1",
+  "description": "Password Protected Categories plugin for WordPress",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://barn2media@bitbucket.org/barn2media/password-protected-categories.git"
+  },
+  "keywords": [
+    "worpress",
+    "password",
+    "categories"
+  ],
+  "author": "Barn2 Media",
+  "license": "GPL-3.0",
+  "homepage": "https://bitbucket.org/barn2media/password-protected-categories#readme",
+  "dependencies": {},
+  "devDependencies": {
+    "fs": "0.0.1-security",
+    "gulp": "^3.9.1",
+    "gulp-checktextdomain": "^2.1.1",
+    "gulp-clean-css": "^3.9.4",
+    "gulp-debug": "^4.0.0",
+    "gulp-header": "^2.0.5",
+    "gulp-jshint": "^2.1.0",
+    "gulp-rename": "^1.2.3",
+    "gulp-run": "^1.7.1",
+    "gulp-sftp": "^0.1.5",
+    "gulp-uglify": "^3.0.0",
+    "jshint": "^2.9.5",
+    "pump": "^3.0.0"
+  }
+}

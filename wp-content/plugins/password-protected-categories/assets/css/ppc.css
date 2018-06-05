@@ -1,0 +1,15 @@
+
+.widget_text .ppc-login-form input {
+    margin: 3px 0 0;
+    display: block;    
+}
+.widget_text .ppc-login-form input[type="submit"] {
+    margin-top: 8px;
+}
+.ppc-login-error {
+    font-weight: bold;
+    color: #e2401c;
+}
+.ppc-password-label {
+    display: inline;
+}

@@ -1,0 +1,7 @@
+i.qc_sld_btn {
+    background-image: url(sld-button.png);
+    width: 60px !important;
+
+    background-size: 60px 20px;
+    background-repeat: no-repeat;
+}
