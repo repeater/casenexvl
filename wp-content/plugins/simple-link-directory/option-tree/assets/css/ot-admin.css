@@ -3376,17 +3376,17 @@ a.ui-datepicker-next {
   border-bottom: 1px solid #ccc;
 }
 .ui-datepicker-multi-2 {
-  width: 432px ;
+  width: 432px !important;
 }
 .ui-datepicker-multi-3 {
-  width: 648px ;
+  width: 648px !important;
 }
 .ui-datepicker-multi-4 {
-  width: 864px ;
+  width: 864px !important;
 }
 .ui-datepicker-group {
   float: left;
-  width: 216px ;
+  width: 216px !important;
 }
 .ui-datepicker-row-break {
   clear: both;
@@ -3394,7 +3394,7 @@ a.ui-datepicker-next {
   font-size: 0;
 }
 .ui-datepicker-multi .ui-datepicker-buttonpane {
-  border-top: 1px solid #ccc;
+  border-top: 1px solid #ccc !important;
 }
 
 /* default color scheme */
@@ -3416,7 +3416,7 @@ a.ui-datepicker-next {
 .ui-datepicker-prev:hover, 
 .ui-datepicker-next:hover {
   background: #222;
-  color: #0074a2 ;
+  color: #0074a2 !important;
 }
 /* light */
 .admin-color-light .ui-datepicker .ui-widget-header {

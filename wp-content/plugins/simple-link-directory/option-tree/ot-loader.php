@@ -21,7 +21,6 @@ if ( class_exists( 'OT_Loader' ) && defined( 'OT_PLUGIN_MODE' ) && OT_PLUGIN_MOD
  * @author    Derek Herman <derek@valendesigns.com>
  * @copyright Copyright (c) 2013, Derek Herman
  */
-
 if ( ! class_exists( 'OT_Loader' ) ) {
 
   class OT_Loader {
@@ -345,9 +344,6 @@ if ( ! class_exists( 'OT_Loader' ) ) {
      */
     private function admin_includes() {
       
-
-
-
       /* exit early if we're not on an admin page */
       if ( ! is_admin() )
         return false;
@@ -789,7 +785,6 @@ if ( ! class_exists( 'OT_Loader' ) ) {
    *
    * @since     2.0
    */
-
   $ot_loader = new OT_Loader();
 
 }

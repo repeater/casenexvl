@@ -1,0 +1,1086 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-05-01 11:45+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: \n"
+"Language: \n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/"
+
+#: qc-op-directory-multipage.php:45 qc-op-directory-multipage.php:406
+#: templates/style-multipage/template.php:492
+msgid "Visit Page"
+msgstr ""
+
+#: qc-op-directory-multipage.php:205
+msgid "Visit This Link"
+msgstr ""
+
+#: qc-op-directory-multipage.php:278
+msgid "Related Items"
+msgstr ""
+
+#: qc-op-directory-post-type.php:16
+msgid "Add New List Item"
+msgstr ""
+
+#: qc-op-directory-post-type.php:17
+msgid "Edit List Item"
+msgstr ""
+
+#: qc-op-directory-post-type.php:18
+msgid "New List Item"
+msgstr ""
+
+#: qc-op-directory-post-type.php:19
+msgid "Manage List Items"
+msgstr ""
+
+#: qc-op-directory-post-type.php:20
+msgid "View List Item"
+msgstr ""
+
+#: qc-op-directory-post-type.php:21
+msgid "Search List Item"
+msgstr ""
+
+#: qc-op-directory-post-type.php:22
+msgid "No List Item found"
+msgstr ""
+
+#: qc-op-directory-post-type.php:23
+msgid "No List Item found in the Trash"
+msgstr ""
+
+#: qc-op-directory-post-type.php:25
+msgid "Simple Link Directory"
+msgstr ""
+
+#: qc-op-directory-post-type.php:30
+msgid "This post type holds all posts for your directory items."
+msgstr ""
+
+#: qc-op-directory-post-type.php:45
+msgctxt "List Categories"
+msgid "List Categories"
+msgstr ""
+
+#: qc-op-directory-post-type.php:46
+msgctxt "taxonomy singular name"
+msgid "Category"
+msgstr ""
+
+#: qc-op-directory-post-type.php:47
+msgid "Search List Categories"
+msgstr ""
+
+#: qc-op-directory-post-type.php:48
+msgid "All List Categories"
+msgstr ""
+
+#: qc-op-directory-post-type.php:49
+msgid "Parent List Categories"
+msgstr ""
+
+#: qc-op-directory-post-type.php:50
+msgid "Parent List Category:"
+msgstr ""
+
+#: qc-op-directory-post-type.php:51
+msgid "Edit List Category"
+msgstr ""
+
+#: qc-op-directory-post-type.php:52
+msgid "Update List Category"
+msgstr ""
+
+#: qc-op-directory-post-type.php:53
+msgid "Add New List Category"
+msgstr ""
+
+#: qc-op-directory-post-type.php:54
+msgid "New List Category Name"
+msgstr ""
+
+#: qc-op-directory-post-type.php:55
+msgid "List Categories"
+msgstr ""
+
+#: qc-opd-sorting-support.php:83 templates/simple/filter-template.php:63
+#: templates/simple/filter-template.php:148 templates/simple/template.php:144
+#: templates/simple/template.php:288 templates/style-1/filter-template.php:51
+#: templates/style-1/filter-template.php:134 templates/style-1/template.php:125
+#: templates/style-1/template.php:256 templates/style-10/filter-template.php:51
+#: templates/style-10/filter-template.php:134
+#: templates/style-10/template.php:115 templates/style-10/template.php:245
+#: templates/style-11/filter-template.php:51
+#: templates/style-11/filter-template.php:134
+#: templates/style-11/template.php:139 templates/style-11/template.php:270
+#: templates/style-12/filter-template.php:51
+#: templates/style-12/filter-template.php:134
+#: templates/style-12/template.php:126 templates/style-12/template.php:257
+#: templates/style-13/filter-template.php:51
+#: templates/style-13/filter-template.php:134
+#: templates/style-13/template.php:126 templates/style-13/template.php:257
+#: templates/style-14/filter-template.php:50
+#: templates/style-14/filter-template.php:134
+#: templates/style-14/template.php:126 templates/style-14/template.php:257
+#: templates/style-2/filter-template.php:51
+#: templates/style-2/filter-template.php:134 templates/style-2/template.php:126
+#: templates/style-2/template.php:257 templates/style-3/filter-template.php:51
+#: templates/style-3/filter-template.php:134 templates/style-3/template.php:126
+#: templates/style-3/template.php:257 templates/style-4/filter-template.php:51
+#: templates/style-4/filter-template.php:134 templates/style-4/template.php:126
+#: templates/style-4/template.php:257 templates/style-5/filter-template.php:51
+#: templates/style-5/filter-template.php:134 templates/style-5/template.php:125
+#: templates/style-5/template.php:256 templates/style-6/filter-template.php:51
+#: templates/style-6/filter-template.php:134 templates/style-6/template.php:127
+#: templates/style-6/template.php:258 templates/style-7/filter-template.php:51
+#: templates/style-7/filter-template.php:134 templates/style-7/template.php:127
+#: templates/style-7/template.php:258 templates/style-8/filter-template.php:51
+#: templates/style-8/filter-template.php:134 templates/style-8/template.php:126
+#: templates/style-8/template.php:257 templates/style-9/filter-template.php:52
+#: templates/style-9/filter-template.php:135 templates/style-9/template.php:140
+#: templates/style-9/template.php:272
+#: templates/style-multipage/filter-template.php:50
+#: templates/style-multipage/filter-template.php:134
+#: templates/style-multipage/template.php:126
+msgid "Show All"
+msgstr ""
+
+#: qcopd-shortcode-generator.php:41
+msgid "SLD - Shortcode Generator"
+msgstr ""
+
+#: qcopd-shortcode-generator.php:504
+msgid "SLD Reset Upvotes"
+msgstr ""
+
+#: qcopd-widgets.php:14
+msgid "SLD - Most Popular Links"
+msgstr ""
+
+#: qcopd-widgets.php:16
+msgid "Widget to display most popular list items from - simple link directory."
+msgstr ""
+
+#: qcopd-widgets.php:60
+msgid "Popular Links"
+msgstr ""
+
+#: qcopd-widgets.php:61 qcopd-widgets.php:158 qcopd-widgets.php:255
+msgid "5"
+msgstr ""
+
+#: qcopd-widgets.php:66 qcopd-widgets.php:163 qcopd-widgets.php:260
+msgid "Title:"
+msgstr ""
+
+#: qcopd-widgets.php:72 qcopd-widgets.php:169 qcopd-widgets.php:266
+msgid "Limit:"
+msgstr ""
+
+#: qcopd-widgets.php:111
+msgid "SLD - Random Links"
+msgstr ""
+
+#: qcopd-widgets.php:113
+msgid ""
+"Widget to display randomly picked list items from - simple link directory."
+msgstr ""
+
+#: qcopd-widgets.php:157
+msgid "Random Links"
+msgstr ""
+
+#: qcopd-widgets.php:208
+msgid "SLD - Latest Links"
+msgstr ""
+
+#: qcopd-widgets.php:210
+msgid ""
+"Widget to display the most recent list items from - simple link directory."
+msgstr ""
+
+#: qcopd-widgets.php:254
+msgid "Latest Links"
+msgstr ""
+
+#: embed/embedder.php:85
+msgid "Share List"
+msgstr ""
+
+#: embed/embedder.php:101
+msgid "Generate Embed Code For This List"
+msgstr ""
+
+#: embed/embedder.php:125
+msgid "Generate & Copy"
+msgstr ""
+
+#: embed/embedder.php:132
+msgid "Generated Code"
+msgstr ""
+
+#: modules/claim_listing/class.sld_claim_listing_page.php:124
+#: modules/registration/class.sld_registration.php:77
+#, php-format
+msgid "New user registration on your blog %s:"
+msgstr ""
+
+#: modules/claim_listing/class.sld_claim_listing_page.php:125
+#: modules/claim_listing/class.sld_claim_listing_page.php:138
+#: modules/registration/class.sld_registration.php:78
+#: modules/registration/class.sld_registration.php:91
+#, php-format
+msgid "Username: %s"
+msgstr ""
+
+#: modules/claim_listing/class.sld_claim_listing_page.php:126
+#: modules/registration/class.sld_registration.php:79
+#, php-format
+msgid "E-mail: %s"
+msgstr ""
+
+#: modules/claim_listing/class.sld_claim_listing_page.php:128
+#: modules/registration/class.sld_registration.php:81
+#, php-format
+msgid "[%s] New User Registration"
+msgstr ""
+
+#: modules/claim_listing/class.sld_claim_listing_page.php:136
+#: modules/registration/class.sld_registration.php:89
+#, php-format
+msgid "Welcome to %s! Here's how to log in:"
+msgstr ""
+
+#: modules/claim_listing/class.sld_claim_listing_page.php:145
+#: modules/registration/class.sld_registration.php:98
+#, php-format
+msgid "[%s] Your username and password"
+msgstr ""
+
+#: modules/claim_listing/class.sld_claim_listing_page.php:158
+#: modules/registration/class.sld_registration.php:110
+msgid "Required form field is missing"
+msgstr ""
+
+#: modules/claim_listing/class.sld_claim_listing_page.php:160
+#: modules/registration/class.sld_registration.php:112
+msgid "Username too short. At least 4 characters is required"
+msgstr ""
+
+#: modules/claim_listing/class.sld_claim_listing_page.php:162
+#: modules/registration/class.sld_registration.php:114
+msgid "Password length must be greater than 5"
+msgstr ""
+
+#: modules/claim_listing/class.sld_claim_listing_page.php:164
+#: modules/registration/class.sld_registration.php:116
+msgid "Email is not valid"
+msgstr ""
+
+#: modules/claim_listing/class.sld_claim_listing_page.php:166
+#: modules/registration/class.sld_registration.php:118
+msgid "Email Already in use"
+msgstr ""
+
+#: modules/claim_listing/class.sld_claim_listing_page.php:168
+#: modules/registration/class.sld_registration.php:120
+msgid "Sorry, the username you entered is not valid"
+msgstr ""
+
+#: modules/claim_listing/class.sld_claim_listing_page.php:170
+#: modules/registration/class.sld_registration.php:122
+msgid "Captcha does not match!"
+msgstr ""
+
+#: modules/claim_listing/class.sld_claim_listing_page.php:174
+#: modules/registration/class.sld_registration.php:126
+msgid "Sorry, that username already exists!"
+msgstr ""
+
+#: modules/claim_listing/class.sld_claim_listing_page.php:226
+msgid "Account Info"
+msgstr ""
+
+#: modules/claim_listing/class.sld_claim_listing_page.php:228
+#: modules/registration/class.sld_registration.php:201
+msgid "First Name"
+msgstr ""
+
+#: modules/claim_listing/class.sld_claim_listing_page.php:234
+#: modules/registration/class.sld_registration.php:207
+msgid "Last Name"
+msgstr ""
+
+#: modules/claim_listing/class.sld_claim_listing_page.php:240
+#: modules/dashboard/class.sld_dashboard.php:859
+#: modules/login/class.sld_login.php:99 modules/login/qc-login-form.php:16
+#: modules/registration/class.sld_registration.php:213
+msgid "Username"
+msgstr ""
+
+#: modules/claim_listing/class.sld_claim_listing_page.php:245
+#: modules/login/class.sld_login.php:103 modules/login/qc-login-form.php:20
+#: modules/registration/class.sld_registration.php:218
+msgid "Password"
+msgstr ""
+
+#: modules/claim_listing/class.sld_claim_listing_page.php:250
+#: modules/dashboard/class.sld_dashboard.php:855
+#: modules/registration/class.sld_registration.php:223
+msgid "Email"
+msgstr ""
+
+#: modules/claim_listing/class.sld_claim_listing_page.php:254
+msgid "List Info"
+msgstr ""
+
+#: modules/claim_listing/class.sld_claim_listing_page.php:257
+#: modules/dashboard/sld_claim.php:38
+msgid "Select List Name"
+msgstr ""
+
+#: modules/claim_listing/class.sld_claim_listing_page.php:276
+#: modules/dashboard/sld_claim.php:56
+msgid "Select Item Name"
+msgstr ""
+
+#: modules/claim_listing/class.sld_claim_listing_page.php:290
+#: modules/registration/class.sld_registration.php:232
+msgid "Code"
+msgstr ""
+
+#: modules/claim_listing/class.sld_claim_listing_page.php:298
+msgid "Claim List"
+msgstr ""
+
+#: modules/claim_listing/class.sld_claim_order_list.php:96
+msgid "Claim Deleted"
+msgstr ""
+
+#: modules/claim_listing/class.sld_claim_order_list.php:96
+#: modules/claim_listing/class.sld_claim_order_list.php:160
+#: modules/claim_listing/class.sld_claim_order_list.php:162
+#: modules/package/class.sld_order_list.php:101
+#: modules/package/class.sld_order_list.php:128
+msgid "Dismiss this notice."
+msgstr ""
+
+#: modules/claim_listing/class.sld_claim_order_list.php:160
+msgid "Claim has been Approved successfully."
+msgstr ""
+
+#: modules/claim_listing/class.sld_claim_order_list.php:162
+msgid "Claim has been Approved already."
+msgstr ""
+
+#: modules/claim_listing/class.sld_claim_order_list.php:182
+#: modules/dashboard/class.sld_dashboard.php:752
+#: modules/dashboard/sld_claim.php:137
+msgid "Claim Listing"
+msgstr ""
+
+#: modules/claim_listing/class.sld_claim_order_list.php:189
+#: modules/claim_listing/class.sld_claim_order_list.php:230
+#: modules/click_report/class.sld_click_list.php:175
+#: modules/click_report/class.sld_click_list.php:195
+#: modules/package/class.sld_order_list.php:151
+#: modules/package/class.sld_order_list.php:182
+msgid "Date"
+msgstr ""
+
+#: modules/claim_listing/class.sld_claim_order_list.php:193
+#: modules/claim_listing/class.sld_claim_order_list.php:235
+#: modules/dashboard/sld_claim.php:171 modules/dashboard/sld_claim.php:202
+msgid "List Name"
+msgstr ""
+
+#: modules/claim_listing/class.sld_claim_order_list.php:196
+#: modules/claim_listing/class.sld_claim_order_list.php:239
+msgid "List Item Name"
+msgstr ""
+
+#: modules/claim_listing/class.sld_claim_order_list.php:200
+#: modules/claim_listing/class.sld_claim_order_list.php:244
+#: modules/package/class.sld_order_list.php:157
+#: modules/package/class.sld_order_list.php:190
+msgid "Buyer Name"
+msgstr ""
+
+#: modules/claim_listing/class.sld_claim_order_list.php:203
+#: modules/claim_listing/class.sld_claim_order_list.php:248
+#: modules/package/class.sld_order_list.php:160
+#: modules/package/class.sld_order_list.php:194
+msgid "User Name"
+msgstr ""
+
+#: modules/claim_listing/class.sld_claim_order_list.php:206
+#: modules/claim_listing/class.sld_claim_order_list.php:255
+#: modules/dashboard/sld_claim.php:178 modules/dashboard/sld_claim.php:213
+msgid "Payable Amount"
+msgstr ""
+
+#: modules/claim_listing/class.sld_claim_order_list.php:209
+#: modules/claim_listing/class.sld_claim_order_list.php:259
+#: modules/dashboard/sld_claim.php:181 modules/dashboard/sld_claim.php:223
+msgid "Paid Amount"
+msgstr ""
+
+#: modules/claim_listing/class.sld_claim_order_list.php:212
+#: modules/claim_listing/class.sld_claim_order_list.php:264
+msgid "Payment Status"
+msgstr ""
+
+#: modules/claim_listing/class.sld_claim_order_list.php:216
+#: modules/claim_listing/class.sld_claim_order_list.php:278
+msgid "Approval"
+msgstr ""
+
+#: modules/claim_listing/class.sld_claim_order_list.php:220
+#: modules/claim_listing/class.sld_claim_order_list.php:283
+#: modules/dashboard/sld_entrylist.php:45
+#: modules/dashboard/sld_entrylist.php:102
+#: modules/package/class.sld_order_list.php:172
+#: modules/package/class.sld_order_list.php:213
+msgid "Action"
+msgstr ""
+
+#: modules/claim_listing/class.sld_claim_order_list.php:287
+msgid "Approve"
+msgstr ""
+
+#: modules/claim_listing/class.sld_claim_order_list.php:298
+msgid "Edit Item"
+msgstr ""
+
+#: modules/claim_listing/class.sld_claim_order_list.php:303
+#: modules/dashboard/sld_entrylist.php:105
+#: modules/package/class.sld_order_list.php:215
+msgid "Delete"
+msgstr ""
+
+#: modules/click_report/class.sld_click_list.php:136
+msgid "Click Report"
+msgstr ""
+
+#: modules/click_report/class.sld_click_list.php:172
+msgid "Serial"
+msgstr ""
+
+#: modules/click_report/class.sld_click_list.php:178
+#: modules/click_report/class.sld_click_list.php:199
+msgid "Item Url"
+msgstr ""
+
+#: modules/click_report/class.sld_click_list.php:181
+#: modules/click_report/class.sld_click_list.php:203
+msgid "Ip"
+msgstr ""
+
+#: modules/click_report/class.sld_click_list.php:191
+msgid "Id"
+msgstr ""
+
+#: modules/dashboard/class.sld_dashboard.php:656
+#: modules/dashboard/qc-subscriber_entry_list.php:489
+#: modules/dashboard/qc-subscriber_entry_list.php:522
+msgid "Pending"
+msgstr ""
+
+#: modules/dashboard/class.sld_dashboard.php:658
+#: modules/dashboard/qc-subscriber_entry_list.php:490
+#: modules/dashboard/qc-subscriber_entry_list.php:524
+msgid "Approved"
+msgstr ""
+
+#: modules/dashboard/class.sld_dashboard.php:660
+#: modules/dashboard/qc-subscriber_entry_list.php:526
+msgid "Deny"
+msgstr ""
+
+#: modules/dashboard/class.sld_dashboard.php:662
+#: modules/dashboard/qc-subscriber_entry_list.php:528
+msgid "Edited"
+msgstr ""
+
+#: modules/dashboard/class.sld_dashboard.php:745
+msgid "Dashboard"
+msgstr ""
+
+#: modules/dashboard/class.sld_dashboard.php:748
+msgid "Add Link"
+msgstr ""
+
+#: modules/dashboard/class.sld_dashboard.php:750
+msgid "Your Links"
+msgstr ""
+
+#: modules/dashboard/class.sld_dashboard.php:755
+#: modules/dashboard/sld_entrylist.php:37
+#: modules/dashboard/sld_entrylist.php:85
+msgid "Package"
+msgstr ""
+
+#: modules/dashboard/class.sld_dashboard.php:762
+msgid "Logout"
+msgstr ""
+
+#: modules/dashboard/class.sld_dashboard.php:794
+msgid "Something Went Wrong."
+msgstr ""
+
+#: modules/dashboard/class.sld_dashboard.php:797
+msgid "User profile updated."
+msgstr ""
+
+#: modules/dashboard/class.sld_dashboard.php:816
+#, php-format
+msgid "Hi %s, Welcome to your Dashboard."
+msgstr ""
+
+#: modules/dashboard/class.sld_dashboard.php:827
+#: modules/dashboard/class.sld_dashboard.php:835
+#: modules/dashboard/sld_package.php:257 modules/dashboard/sld_package.php:312
+msgid "Total Link"
+msgstr ""
+
+#: modules/dashboard/class.sld_dashboard.php:827
+#: modules/dashboard/class.sld_dashboard.php:829
+msgid "Unlimited"
+msgstr ""
+
+#: modules/dashboard/class.sld_dashboard.php:828
+#: modules/dashboard/class.sld_dashboard.php:836
+msgid "Submited Link"
+msgstr ""
+
+#: modules/dashboard/class.sld_dashboard.php:829
+#: modules/dashboard/class.sld_dashboard.php:837
+#: modules/dashboard/sld_package.php:261
+msgid "Remaining Link"
+msgstr ""
+
+#: modules/dashboard/class.sld_dashboard.php:850
+msgid "Update Profile Info"
+msgstr ""
+
+#: modules/dashboard/class.sld_dashboard.php:853
+msgid "Full Name"
+msgstr ""
+
+#: modules/dashboard/class.sld_dashboard.php:895
+#: modules/dashboard/class.sld_dashboard.php:900
+msgid ""
+"Payment has been done successfully. Thank you!\n"
+"                    Now you can add links to our Lists."
+msgstr ""
+
+#: modules/dashboard/class.sld_dashboard.php:905
+msgid "Payment has been done successfully for package renewal. Thank you! "
+msgstr ""
+
+#: modules/dashboard/class.sld_dashboard.php:909
+#: modules/dashboard/class.sld_dashboard.php:913
+msgid "Payment has been done successfully for Claim Listing. Thank you! "
+msgstr ""
+
+#: modules/dashboard/class.sld_dashboard.php:925
+#, php-format
+msgid ""
+"You have to login in to view this content. <a href=\"%s\">Click Here</a> to "
+"log in."
+msgstr ""
+
+#: modules/dashboard/class.sld_dashboard.php:927
+msgid "Sorry, You are not allowed to view the content of this page."
+msgstr ""
+
+#: modules/dashboard/qc-subscriber_entry_list.php:376
+#: modules/dashboard/sld_entry.php:216 modules/dashboard/sld_entryedit.php:213
+#: modules/dashboard/sld_entrylist.php:30
+#: modules/dashboard/sld_entrylist.php:75
+msgid "Category"
+msgstr ""
+
+#: modules/dashboard/qc-subscriber_entry_list.php:400
+#: modules/dashboard/sld_entry.php:235 modules/dashboard/sld_entryedit.php:235
+msgid "Select List"
+msgstr ""
+
+#: modules/dashboard/qc-subscriber_entry_list.php:491
+msgid "Denied"
+msgstr ""
+
+#: modules/dashboard/qc-subscriber_entry_list.php:492
+msgid "Paid"
+msgstr ""
+
+#: modules/dashboard/qc-subscriber_entry_list.php:493
+msgid "Free"
+msgstr ""
+
+#: modules/dashboard/sld_claim.php:33
+msgid "Add Claim Listing"
+msgstr ""
+
+#: modules/dashboard/sld_claim.php:63 modules/dashboard/sld_entry.php:255
+#: modules/dashboard/sld_entryedit.php:280
+msgid "Submit"
+msgstr ""
+
+#: modules/dashboard/sld_claim.php:162
+msgid ""
+"<p>Your claim list item is waiting for admin approval. After approve you "
+"will find your claim list item in \"Your Links\" Tab.</p>"
+msgstr ""
+
+#: modules/dashboard/sld_claim.php:175 modules/dashboard/sld_claim.php:208
+msgid "Item Name"
+msgstr ""
+
+#: modules/dashboard/sld_claim.php:185 modules/dashboard/sld_claim.php:228
+#: modules/dashboard/sld_entrylist.php:41
+#: modules/dashboard/sld_entrylist.php:97 modules/dashboard/sld_package.php:268
+#: modules/dashboard/sld_package.php:330
+#: modules/package/class.sld_order_list.php:169
+#: modules/package/class.sld_order_list.php:209
+msgid "Status"
+msgstr ""
+
+#: modules/dashboard/sld_claim.php:190 modules/dashboard/sld_claim.php:233
+msgid "Payment"
+msgstr ""
+
+#: modules/dashboard/sld_claim.php:289
+msgid "No Claim Listing"
+msgstr ""
+
+#: modules/dashboard/sld_entry.php:89 modules/dashboard/sld_entry.php:101
+msgid "Your list link has been successfully published."
+msgstr ""
+
+#: modules/dashboard/sld_entry.php:105
+msgid ""
+"Your link has been successfully submitted. We will review your item "
+"information before Publishing. Thank you for your patience."
+msgstr ""
+
+#: modules/dashboard/sld_entry.php:118
+msgid "You have reached your free link submission limit."
+msgstr ""
+
+#: modules/dashboard/sld_entry.php:124
+msgid "Add Your Link"
+msgstr ""
+
+#: modules/dashboard/sld_entry.php:128 modules/dashboard/sld_entryedit.php:127
+#: modules/dashboard/sld_entrylist.php:23
+#: modules/dashboard/sld_entrylist.php:64
+msgid "Link Title"
+msgstr ""
+
+#: modules/dashboard/sld_entry.php:130 modules/dashboard/sld_entryedit.php:129
+msgid "Link (Include http:// or https://)"
+msgstr ""
+
+#: modules/dashboard/sld_entry.php:134 modules/dashboard/sld_entryedit.php:133
+#: modules/dashboard/sld_entrylist.php:27
+#: modules/dashboard/sld_entrylist.php:70
+msgid "Link Subtitle"
+msgstr ""
+
+#: modules/dashboard/sld_entry.php:138 modules/dashboard/sld_entryedit.php:137
+msgid "Link Long Description"
+msgstr ""
+
+#: modules/dashboard/sld_entry.php:141 modules/dashboard/sld_entryedit.php:140
+msgid "Select Package"
+msgstr ""
+
+#: modules/dashboard/sld_entry.php:205 modules/dashboard/sld_entryedit.php:197
+msgid "Link Image"
+msgstr ""
+
+#: modules/dashboard/sld_entry.php:243 modules/dashboard/sld_entry.php:249
+#: modules/dashboard/sld_entryedit.php:266
+#: modules/dashboard/sld_entryedit.php:272
+msgid "No Follow"
+msgstr ""
+
+#: modules/dashboard/sld_entryedit.php:100
+#: modules/dashboard/sld_entryedit.php:105
+msgid "Your link has been updated sucessfully."
+msgstr ""
+
+#: modules/dashboard/sld_entryedit.php:107
+msgid "Your link has been updated! Waiting for approval."
+msgstr ""
+
+#: modules/dashboard/sld_entryedit.php:124
+msgid "Link Edit Form"
+msgstr ""
+
+#: modules/dashboard/sld_entryedit.php:286
+msgid "<p>Something Went Wrong.</p>"
+msgstr ""
+
+#: modules/dashboard/sld_entrylist.php:13
+msgid "Link List Page"
+msgstr ""
+
+#: modules/dashboard/sld_entrylist.php:20
+#: modules/dashboard/sld_entrylist.php:57
+msgid "Image"
+msgstr ""
+
+#: modules/dashboard/sld_entrylist.php:33
+msgid "List"
+msgstr ""
+
+#: modules/dashboard/sld_entrylist.php:80
+msgid "SLD List"
+msgstr ""
+
+#: modules/dashboard/sld_entrylist.php:103
+msgid "Edit"
+msgstr ""
+
+#: modules/dashboard/sld_package.php:6
+msgid "<p>No Package Available</p>"
+msgstr ""
+
+#: modules/dashboard/sld_package.php:74
+msgid "Package Details"
+msgstr ""
+
+#: modules/dashboard/sld_package.php:82
+msgid "Title"
+msgstr ""
+
+#: modules/dashboard/sld_package.php:89
+msgid "Description"
+msgstr ""
+
+#: modules/dashboard/sld_package.php:97
+#: modules/package/class.sld_package.php:199
+msgid "Duration"
+msgstr ""
+
+#: modules/dashboard/sld_package.php:108
+msgid "Link"
+msgstr ""
+
+#: modules/dashboard/sld_package.php:113
+msgid "Price"
+msgstr ""
+
+#: modules/dashboard/sld_package.php:118
+#: modules/package/class.sld_package.php:222
+#: modules/package/class.sld_package.php:433
+msgid "Currency"
+msgstr ""
+
+#: modules/dashboard/sld_package.php:246 modules/dashboard/sld_package.php:286
+msgid "Package name"
+msgstr ""
+
+#: modules/dashboard/sld_package.php:250 modules/dashboard/sld_package.php:292
+msgid "Purchase Date"
+msgstr ""
+
+#: modules/dashboard/sld_package.php:253 modules/dashboard/sld_package.php:297
+msgid "Expire Date"
+msgstr ""
+
+#: modules/dashboard/sld_package.php:264 modules/dashboard/sld_package.php:325
+msgid "Cost"
+msgstr ""
+
+#: modules/dashboard/sld_package.php:272 modules/dashboard/sld_package.php:351
+msgid "Renew"
+msgstr ""
+
+#: modules/dashboard/sld_package.php:317
+msgid "Remain Link"
+msgstr ""
+
+#: modules/dashboard/sld_package.php:408
+msgid "You have no package purchased!"
+msgstr ""
+
+#: modules/login/class.sld_login.php:51
+msgid "Successfully logged in!"
+msgstr ""
+
+#: modules/login/class.sld_login.php:53
+msgid "Wrong credentials or you are not allowed to log in."
+msgstr ""
+
+#: modules/login/class.sld_login.php:55
+msgid "Successfully logged out!"
+msgstr ""
+
+#: modules/login/class.sld_login.php:57
+msgid "Something went wrong while activating your user"
+msgstr ""
+
+#: modules/login/class.sld_login.php:59
+msgid "You are not allowed to access this area."
+msgstr ""
+
+#: modules/login/class.sld_login.php:61
+msgid "Successfully activated"
+msgstr ""
+
+#: modules/login/class.sld_login.php:74 modules/login/class.sld_login.php:95
+#: modules/login/class.sld_login.php:350 modules/login/qc-login-form.php:12
+#: modules/login/qc-login-preview.php:15
+msgid "Login"
+msgstr ""
+
+#: modules/login/class.sld_login.php:78 modules/login/class.sld_login.php:354
+#: modules/login/qc-login-preview.php:19
+msgid "User already logged in"
+msgstr ""
+
+#: modules/login/class.sld_login.php:80 modules/login/class.sld_login.php:356
+#: modules/login/qc-login-preview.php:21
+msgid "Log out"
+msgstr ""
+
+#: modules/login/class.sld_login.php:109 modules/login/class.sld_login.php:304
+#: modules/login/qc-login-form.php:25 modules/login/sld-restore-new.php:21
+msgid "Log in"
+msgstr ""
+
+#: modules/login/class.sld_login.php:118 modules/login/qc-login-form.php:34
+msgid "Create Account"
+msgstr ""
+
+#: modules/login/class.sld_login.php:123 modules/login/qc-login-form.php:39
+msgid "Forgot your password?"
+msgstr ""
+
+#: modules/login/class.sld_login.php:214
+#, php-format
+msgid ""
+"Use the following link to restore your password: <a href='%s'>restore your "
+"password</a> <br/><br/>%s<br/>"
+msgstr ""
+
+#: modules/login/class.sld_login.php:215
+msgid "Restore your password"
+msgstr ""
+
+#: modules/login/class.sld_login.php:275
+msgid "You will receive an email with the activation link"
+msgstr ""
+
+#: modules/login/class.sld_login.php:277
+msgid "You may receive an email with the activation link"
+msgstr ""
+
+#: modules/login/class.sld_login.php:279
+msgid "An error has ocurred sending the email"
+msgstr ""
+
+#: modules/login/class.sld_login.php:281
+msgid "Username is not valid"
+msgstr ""
+
+#: modules/login/class.sld_login.php:295 modules/login/sld-restore-new.php:12
+msgid "Your new password is"
+msgstr ""
+
+#: modules/login/class.sld_login.php:316 modules/login/qc-restore-form.php:7
+msgid "Reset password"
+msgstr ""
+
+#: modules/login/class.sld_login.php:320 modules/login/qc-restore-form.php:11
+msgid "Username (or E-mail)"
+msgstr ""
+
+#: modules/login/class.sld_login.php:324 modules/login/qc-restore-form.php:15
+msgid "Website"
+msgstr ""
+
+#: modules/login/class.sld_login.php:331 modules/login/qc-restore-form.php:22
+msgid "Restore password"
+msgstr ""
+
+#: modules/login/class.sld_login.php:340
+msgid "You are now logged in. It makes no sense to restore your account"
+msgstr ""
+
+#: modules/package/class.sld_order_list.php:101
+msgid "Order Deleted."
+msgstr ""
+
+#: modules/package/class.sld_order_list.php:128
+msgid "Order has been canceled."
+msgstr ""
+
+#: modules/package/class.sld_order_list.php:144
+msgid "Order List"
+msgstr ""
+
+#: modules/package/class.sld_order_list.php:154
+#: modules/package/class.sld_order_list.php:186
+msgid "Transaction Id"
+msgstr ""
+
+#: modules/package/class.sld_order_list.php:163
+#: modules/package/class.sld_order_list.php:201
+msgid "Amount"
+msgstr ""
+
+#: modules/package/class.sld_order_list.php:166
+#: modules/package/class.sld_order_list.php:205
+msgid "Recurring"
+msgstr ""
+
+#: modules/package/class.sld_order_list.php:219
+msgid "Cancel Order"
+msgstr ""
+
+#: modules/package/class.sld_package.php:157
+msgid "Manage Your Package"
+msgstr ""
+
+#: modules/package/class.sld_package.php:162
+msgid ""
+"<p>You have no package created! Please submit the following information and "
+"press save to Create a Package and charge your client to submit there list "
+"item.</p>"
+msgstr ""
+
+#: modules/package/class.sld_package.php:171
+msgid "Enable Package"
+msgstr ""
+
+#: modules/package/class.sld_package.php:180
+msgid "Package Title"
+msgstr ""
+
+#: modules/package/class.sld_package.php:189
+msgid "Package Description"
+msgstr ""
+
+#: modules/package/class.sld_package.php:215
+msgid "Lifetime"
+msgstr ""
+
+#: modules/package/class.sld_package.php:217
+msgid ""
+"Select duration for how long the items will remain visible and also it will "
+"be use for recurring payment if selected."
+msgstr ""
+
+#: modules/package/class.sld_package.php:265
+msgid "Total Item"
+msgstr ""
+
+#: modules/package/class.sld_package.php:270
+msgid "How many links user can add?"
+msgstr ""
+
+#: modules/package/class.sld_package.php:275
+msgid "Package Price"
+msgstr ""
+
+#: modules/package/class.sld_package.php:280
+msgid "Enter price for the package."
+msgstr ""
+
+#: modules/package/class.sld_package.php:309
+msgid "Reset Package"
+msgstr ""
+
+#: modules/package/class.sld_package.php:314
+msgid "Reset package"
+msgstr ""
+
+#: modules/package/class.sld_package.php:404
+msgid "Manage Claim Listing Payment"
+msgstr ""
+
+#: modules/package/class.sld_package.php:412
+msgid "Enable Payment for Claim Listing"
+msgstr ""
+
+#: modules/package/class.sld_package.php:423
+msgid "Claim Listing Price"
+msgstr ""
+
+#: modules/package/class.sld_package.php:428
+msgid "Enter price for the Claim Listing."
+msgstr ""
+
+#: modules/registration/class.sld_registration.php:173
+msgid "User Information submitted! Waiting for approval."
+msgstr ""
+
+#: modules/registration/class.sld_registration.php:175
+msgid "Registration Successful!"
+msgstr ""
+
+#: modules/registration/class.sld_registration.php:175
+msgid "Go to login page"
+msgstr ""
+
+#: modules/registration/class.sld_registration.php:199
+msgid "Create account"
+msgstr ""
+
+#: modules/registration/class.sld_registration.php:240
+msgid "Register"
+msgstr ""
+
+#: templates/simple/search-template.php:10
+#: templates/style-1/search-template.php:10
+#: templates/style-10/search-template.php:10
+#: templates/style-11/search-template.php:10
+#: templates/style-12/search-template.php:10
+#: templates/style-13/search-template.php:10
+#: templates/style-14/search-template.php:10
+#: templates/style-2/search-template.php:10
+#: templates/style-3/search-template.php:10
+#: templates/style-4/search-template.php:10
+#: templates/style-5/search-template.php:10
+#: templates/style-6/search-template.php:10
+#: templates/style-7/search-template.php:10
+#: templates/style-8/search-template.php:10
+#: templates/style-9/search-template.php:10
+#: templates/style-multipage/search-template.php:10
+msgid "Live Search Items"
+msgstr ""
+
+#. Name of the plugin
+msgid "Simple Link Directory - Pro"
+msgstr ""
+
+#. Description of the plugin
+msgid ""
+"Simple Link Directory is an advanced solution to all link page or partners "
+"page needs on your website. This innovative Link Directory PlugIn allows "
+"admin to create list of website links with website logo and a short "
+"description."
+msgstr ""
+
+#. URI of the plugin
+#. Author URI of the plugin
+msgid "https://www.quantumcloud.com/"
+msgstr ""
+
+#. Author of the plugin
+msgid "QunatumCloud"
+msgstr ""

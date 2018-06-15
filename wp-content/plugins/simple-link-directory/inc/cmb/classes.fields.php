@@ -965,7 +965,9 @@ class CMB_wysiwyg extends CMB_Field {
 		printf( '<div class="cmb-wysiwyg" data-id="%s" data-name="%s" data-field-id="%s">', $id, $name, $field_id );
 
 		if ( $this->is_placeholder() ) 	{
-
+			
+			
+			
 			// For placeholder, output the markup for the editor in a JS var.
 			ob_start();
 			$this->args['options']['textarea_name'] = 'cmb-placeholder-name-' . $field_id;
@@ -973,13 +975,15 @@ class CMB_wysiwyg extends CMB_Field {
 			$editor = ob_get_clean();
 			$editor = str_replace( array( "\n", "\r" ), "", $editor );
 			$editor = str_replace( array( "'" ), '"', $editor );
-
+			
 			?>
 
-			<script>
+			<script type="text/javascript">
 				if ( 'undefined' === typeof( cmb_wysiwyg_editors ) )
 					var cmb_wysiwyg_editors = {};
+				/*<!--*/
 				cmb_wysiwyg_editors.<?php echo $field_id; ?> = '<?php echo $editor; ?>';
+				/*-->*/
 			</script>
 
 			<?php

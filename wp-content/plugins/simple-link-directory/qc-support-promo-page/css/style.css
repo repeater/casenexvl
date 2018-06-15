@@ -266,7 +266,7 @@ transform: translateY(-10px);
   width: 100%;
 }
 .tabs li {
-  float: left;
+  float: left !important;
   line-height: 38px;
   overflow: hidden;
   padding: 0;
@@ -337,8 +337,7 @@ transform: translateY(-10px);
 	-o-transform: skewX(-10deg);
 	-ms-transform: skewX(-10deg);
 	transform: skewX(-10deg);
-	right: -10px;
-    top: 0px;
+	right:-9px;	
 }
 .ui-state-active, .ui-widget-content .ui-state-active, .ui-widget-header .ui-state-active, a.ui-button:active, .ui-button:active, .ui-button.ui-state-active:hover {
 	border:none !important;

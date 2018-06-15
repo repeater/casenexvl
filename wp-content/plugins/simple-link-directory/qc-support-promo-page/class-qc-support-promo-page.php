@@ -116,7 +116,6 @@ Please email to <span style="color:#22A0C9;font-weight:bold !important;font-size
  * Main Class to Display Support
  * form and the promo pages
  *******************************/
-
 if( !class_exists('QcSupportAndPromoPage') ){
 
 
@@ -136,11 +135,10 @@ if( !class_exists('QcSupportAndPromoPage') ){
 		
 		function __construct( $plugin_slug = null )
 		{
-			/*
-			if(!function_exists('wp_get_current_user')) {
+		
+			/*if(!function_exists('wp_get_current_user')) {
 				include(ABSPATH . "wp-includes/pluggable.php"); 
-			}
-			*/
+			}*/
 			
 			$this->page_slug = 'qcpro-promo-page-' . $plugin_slug;
 			$this->relative_folder_url = plugin_dir_url( __FILE__ );
@@ -873,11 +871,11 @@ if( !class_exists('QcSupportAndPromoPage') ){
 
 //Please create an unique instance for your use, example: $instance_sldf2
 
-$instance_sldf = new QcSupportAndPromoPage('sld-free-page-123za');
+$instance_qcsldpremium12 = new QcSupportAndPromoPage('qcld-sld-pro-1245support');
 
 if( is_admin() )
 {
-	$instance_sldf->plugin_menu_slug = "edit.php?post_type=sld";
-	$instance_sldf->plugin_name = "SLD - Free Version";
-	$instance_sldf->show_promo_page();
+	$instance_qcsldpremium12->plugin_menu_slug = "edit.php?post_type=sld"; //Edit Value
+	$instance_qcsldpremium12->plugin_name = "SLD - Premium Version"; //Edit Value
+	$instance_qcsldpremium12->show_promo_page();
 }

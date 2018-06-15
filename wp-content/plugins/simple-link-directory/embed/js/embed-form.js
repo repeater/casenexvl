@@ -58,6 +58,7 @@ jQuery(document).ready(function ($) {
      * @type {jQuery}
      * Get shortcode data from custom attribute
      */
+    var orderby = $(".js-open-modal").data("orderby");
     var ordering = $(".js-open-modal").data("order");
     var url = $(".js-open-modal").data("url");
     var mode = $(".js-open-modal").data("mode");
@@ -67,14 +68,14 @@ jQuery(document).ready(function ($) {
     var search = $(".js-open-modal").data("search");
     var category = $(".js-open-modal").data("category");
     var upvote = $(".js-open-modal").data("upvote");
-	var credittitle = $(".js-open-modal").data("credittitle");
+    var credittitle = $(".js-open-modal").data("credittitle");
     var creditlink = $(".js-open-modal").data("creditlink");
+    var tooltip = $(".js-open-modal").data("tooltipp");
 
 
     $('a[data-modal-id]').click(function (e) {
 
         e.preventDefault();
-		
         $("body").append(appendthis);
         $(".modal-overlay").fadeTo(500, 0.7);
         //$(".js-modalbox").fadeIn(500);
@@ -117,9 +118,9 @@ jQuery(document).on('click', ".js-modal-close, .modal-overlay", function(event){
         var i_height = $("#igheight").val();
         var i_width = $("#igwidth").val();
         var selected_value = $(".iframe-main-select option:selected").text();
-        var iframe_template = '<iframe src="' + url + '/?order=' + ordering + '&mode=' + mode + list_id_ext + '&column=' + column + '&style=' + style + '&search=' + search + '&category=' + category + '&upvote=' + upvote + '" '
-            + ' scrolling="yes" ' + 'height="' + i_height + 'px' + '" width="' + i_width + selected_value + '" frameborder="0"></iframe>';
-
+        var iframe_template = '<iframe src="' + url + '/?order=' + ordering + '&orderby=' + orderby + '&mode=' + mode + list_id_ext + '&column=' + column +'&tooltip='+ tooltip + '&style=' + style + '&search=' + search + '&category=' + category + '&upvote=' + upvote + '" '
+            + ' scrolling="auto" ' + 'height="' + i_height + 'px' + '" width="' + i_width + selected_value + '" frameborder="0"></iframe>';
+			
 		var ext = '';
 		
         if (credittitle.length > 0 || creditlink.length > 0) {
@@ -131,8 +132,8 @@ jQuery(document).on('click', ".js-modal-close, .modal-overlay", function(event){
 
         }
 		
-        iframe_template += ext;	
-		
+        iframe_template += ext;
+
         $(".igcode_textarea").html(iframe_template);
         copyToClipboard(document.getElementById("igcode_textarea"));
         $("#igcode_textarea").select();

@@ -58,13 +58,15 @@ var CMB = {
 
 		var excludeInputTypes = '[type=submit],[type=button],[type=checkbox],[type=radio],[readonly]';
 		newT.find( 'input' ).not( excludeInputTypes ).val( '' );
+		
 		/*Newly Injected - 03-06-2016*/
 		var timeStamp = Math.floor(Date.now() / 1000);
 
-		
+		newT.find( "input[name*='[qcopd_timelaps]']" ).val( timeStamp );
 		newT.find( "input[name*='[qcopd_item_nofollow]']" ).prop('checked', true);
 		newT.find( "input[name*='[qcopd_item_newtab]']" ).prop('checked', true);
 		/*Newly Injected Ends*/
+
 		newT.find( '.cmb_upload_status' ).html('');
 
 		newT.insertBefore( templateField );
@@ -318,4 +320,37 @@ jQuery(document).ready( function() {
 
 	CMB.init();
 
+});
+
+/*******************************
+ * Kadir: 04-11-2017
+ *******************************/
+jQuery(document).ready(function($){
+	$("body").on('keyup', "input[name*='[qcopd_item_link]']", function(e){
+
+		var value = $(this).val();
+		var favicon_provider = 'https://www.google.com/s2/favicons?domain=';
+		var total_value = favicon_provider + value;
+
+		if( value != '' )
+		{
+			var res = $(this).closest('.cmb_metabox').find('#qcopd_item_img_link input').val().match(/google.com/g);
+			console.log(res);
+			
+			if($(this).closest('.cmb_metabox').find('#qcopd_item_img_link input').val()!=='' && res!==null){
+				
+				
+				$(this).closest('.cmb_metabox').find('#qcopd_item_img_link input').val(total_value);
+				
+			}else if($(this).closest('.cmb_metabox').find('#qcopd_item_img_link input').val()==''){
+				
+				$(this).closest('.cmb_metabox').find('#qcopd_item_img_link input').val(total_value);
+			}else{
+				console.log($(this).closest('.cmb_metabox').find('#qcopd_item_img_link input').val());
+			}
+
+			
+		}
+		
+	});
 });

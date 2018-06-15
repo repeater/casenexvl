@@ -1,6 +1,6 @@
 jQuery(function($) {
 
-	$('#qcopd-sortable-table tbody').sortable({
+	$('#opd-sort-tbl tbody').sortable({
 		axis: 'y',
 		handle: '.column-order img',
 		placeholder: 'ui-state-highlight',
@@ -17,5 +17,24 @@ jQuery(function($) {
 			$.post(ajaxurl, data);
 		}
 	}).disableSelection();
+
+	//Filter by Taxonomy
+	$(".filter-sld-tax > a"). on("click", function(event){
+
+        event.preventDefault();
+
+        var filterName = $(this).attr("data-filter");
+
+        if( filterName == "all" )
+        {
+            $("#opd-sort-tbl .tbl-body tr").show("slow");
+        }
+        else
+        {
+            $("#opd-sort-tbl .tbl-body tr").hide();
+            $("#opd-sort-tbl .tbl-body tr."+filterName+"").show("slow");
+        }
+
+    });
 
 });

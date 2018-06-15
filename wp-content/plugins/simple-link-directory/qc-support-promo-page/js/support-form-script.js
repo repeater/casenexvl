@@ -44,7 +44,7 @@
 
 		jQuery.post(ajaxurl, data, function(response) {
 			var json = $.parseJSON(response);
-
+			
 			$("#qc-support-form #support-form-loading").hide();
 
 			$("#support-form-result #support-form-status").removeClass('output-success');

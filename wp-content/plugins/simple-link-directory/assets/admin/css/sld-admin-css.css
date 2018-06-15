@@ -1,0 +1,14 @@
+﻿#sld-export-container .export-status.processing {
+  background: rgba(0, 0, 0, 0) url("bar-processing.gif") no-repeat scroll 0 0;
+  display: inline-block;
+  height: 24px;
+  margin: 10px 0;
+  width: 160px;
+}
+
+.delete-old {
+  background-color: #f1f1f1 !important;
+  border-color: #ccc !important;
+  color: red !important;
+  text-shadow: none !important;
+}
