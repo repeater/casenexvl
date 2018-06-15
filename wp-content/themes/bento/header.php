@@ -19,7 +19,7 @@
     <style>
       @import url("https://use.typekit.net/ozy8jox.css");
     </style>
-		<link rel="stylesheet" href="/wp-content/themes/bento/pd-custom.min.css" type="text/css" media="screen" />
+		<link rel="stylesheet" href="/wp-content/themes/bento/pd-custom.min.css?v=2.32" type="text/css" media="screen" />
 
     </head>
 

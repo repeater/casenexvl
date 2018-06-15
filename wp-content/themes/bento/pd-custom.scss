@@ -1,5 +1,5 @@
 // Casenex Virtual Library Custom WP Theme
-// Craig Godfrey - 4.20.2018
+// Craig Godfrey - 6.14.2018
 
 $black:           #000000 !important;
 $dgrey:           #464646 !important;
@@ -226,4 +226,30 @@ p {
     float: right;
     padding-left: 5%;
   }
+}
+.grid-item-box {
+  border-radius: 3px;
+  border: 1px solid $hgrey;
+  border-top: 5px solid $blue;
+}
+.grid-columns .has-post-thumbnail .grid-item-box {
+  padding-top: 13px;
+}
+.site-content a.ajax-load-more {
+  background-color: $purple;
+  color: $white;
+  border-radius: 3px;
+  border-color: transparent;
+  transition-property: background-color;
+  transition-duration: .15s;
+  transition-timing-function: ease-in;
+  &:hover {
+    background-color: $blue;
+    border-color: transparent;
+  }
+}
+.simple .qcopd-single-list ul {
+  box-shadow: none;
+  // border: 1px solid $hgrey;
+  border-radius: 3px;
 }
